@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```{r setup, echo=FALSE, message=FALSE}
+```{r setup, echo=FALSE, message=FALSE, warning=FALSE}
 library(tidyverse)
 library(htmltools)
 library(leaflet)
