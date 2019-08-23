@@ -26,25 +26,25 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "Home"
+    name = "Hom Pejcz"
     pre = "<i class='fa fa-home fa-fw'></i>"
     weight = 1
     identifier = "home"
     url = "/"
   [[menu.main]]
-    name = "Posts"
+    name = "Pościki"
     pre = "<i class='fa fa-list fa-fw'></i>"
     weight = 2
     identifier = "post"
     url = "/post/"
   [[menu.main]]
-    name = "About"
+    name = "Ebaułt"
     pre = "<i class='fa fa-user fa-fw'></i>"
     weight = 3
     identifier = "about"
     url = "/about/"
   [[menu.main]]
-    name = "Contact"
+    name = "Kontakt"
     pre = "<i class='fa fa-phone fa-fw'></i>"
     weight = 4
     url = "/contact/"
@@ -54,5 +54,4 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # by entering your username or ID.
   twitter = "Dziennikarz"
   github = "sms1962"
-  stackoverflow = "*"
   
