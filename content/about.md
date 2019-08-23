@@ -5,27 +5,12 @@ sidemenu: "true"
 title: About
 ---
 
-Hugo is a static site engine written in Go.
+Od początku lat '90 zajmuję się dziennikarstwem. Pracowałem w Gazecie Wyborczej, Polska Presse, Migut Media oraz w Interia.pl. Od blisko 10 lat specjalizuję się w dziennikarstwie danych i analizach sieci społecznych. Jestem autorem kilku analiz dziennikarzy na Twitterze publikowanych w miesięczniku Press.  
 
+Prowadzę też zajęcia z social mediów dla dziennikarzy i badań internetu na Uniwersytecie Papieskim im. Jana Pawła 2 w Krakowie.  
 
-It makes use of a variety of open source projects including:
+Znam bardzo dobrze R i potrafię wykorzystać ten język w dziennikarstwie danych. Potrafię co nieco w JavaScript i Pythonie. W wolnych chwilach albo biegam, albo czytam, albo robię jakiś kurs MOOC, których skończyłem kilkanaście. Od 2007 prowadzę na Twitterze [listę polskich dziennikarzy](http://twitter.com/dziennikarz/dziennikarze) w tym serwisie.  
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
-
-Learn more and contribute on [GitHub](https://github.com/spf13).
-
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+Kontakt: stanuch at gmail kropka com  
+[Twitter: @Dziennikarz](http://twitter.com/dziennikarz)  
+[Moje znaleziska na Refind](http://refind.com/dziennikarz)
