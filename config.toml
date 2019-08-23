@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "dziennikarz.pl/"
 languageCode = "pl"
 title = "Dziennikarz"
 theme = "blackburn"
