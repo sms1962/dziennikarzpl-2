@@ -1,4 +1,5 @@
-baseurl = "https://www.dziennikarz.pl/"
+baseurl = "https://dziennikarz.pl/"
+relativeurls = true
 languageCode = "pl"
 title = "Dziennikarz"
 theme = "blackburn"
