@@ -1,0 +1,84 @@
+---
+title: 'Wieczór emocji: Duda vs. Kurski i co się z tego dowiedziałem o dziennikarzach i serwisach informacyjnych?'
+author: sms
+date: '2020-03-07'
+slug: wieczór-emocji-duda-vs-kurski
+categories:
+  - Kraj
+tags: []
+description: ''
+topics: []
+---
+6 marca na pewno długo będzie zapamiętany zarówno przez prezydenta Andrzeja Dudę jak i dziennikarzy. W ten właśnie wieczór, dosłownie na godzinę przed upłynięciem ustawowego terminu, Duda podpisał ustawę dofinansowującą publiczną TVP. Wcześniej, po głównym wydaniu "Wiadomości" w wywiadzie, Jacek Kurski, prezes TVP oddał się do dyspozycji...Prezydenta. Dziwne, bo prezydent nie mianuje prezesa TVP (robi to Rada Mediów Narodowych). 
+Podejrzewałem, że te kilka wydarzeń, wywoła emocje wśród dziennikarzy i postanowiłem to sprawdzić. Gdzie? Najlepiej na Twitterze. Pobrałem z Twittera dwa rodzaje tweetów: 
+
+- tweety (bez retweetów) opublikowane w dniach 6-7 marca 2020, przez dziennikarzy (na bazie mojej [listy dziennikarzy](https://twitter.com/i/lists/465512)) w których wspomnieli jakiekolwiek konto na Twitterze. Czyli np. Redaktor Iksiński w tweecie wspomina konto Kowalskiego. 
+- opublikowane w dniach 6-7 marca 2020 tweety w których znajdowały się linki do artykułów z 10 najpopularniejszych serwisów informacyjnych: **wiadomosci.onet.pl,  fakty.interia.pl,  wiadomosci.wp.pl,  wyborcza.pl/7,75398,  wyborcza.pl/7,75399,  tvp.info,  tvn24.pl/polska,  tvn24.pl/swiat,  wiadomosci.gazeta.pl,  wiadomosci.radiozet.pl,  www.fakt.pl/wydarzenia,  www.se.pl/wiadomosci/**.  
+
+Dobór serwisów dokonałem na podstawie rankingu Megapanelu ze stycznia w kategorii serwisów informacyjno - publicystycznych, ale dokonałem jednej zmiany. Zmiana to zastąpienie znajdującego się w rankingu serwisu NaTemat.pl przez TVP.info. Wynikała ona z dwóch faktów: serwis NaTemat nie ma wydzielonej sekcji z newsami. Niby jest "Dzieje się", ale to oprócz newsów, również artykuły o innej tematyce. Taki gulasz. Po drugie, chciałem zbadać jak często przesyłane są linki z TVP.info, który z pewnością jest jedną ze stron sporu.  
+
+Zebrane dane posłużyły mi do różnych analiz, ale tu ograniczę się do pokazania grafów, z których można odczytać wiele ciekawych informacji. Zacznijmy od grafa, który powstał z tweetów w których znajdował się link do 10 wybranych serwisów informacyjnych. Dzięki niemu zobaczymy: 
+
+- ranking serwisów wg. popularności rozumianej jako liczba użytych linków w tweetach. 
+- z grafa zobaczymy też jak duże są grupy hunwejbinów poszczególnych serwisów, oraz takich, którzy publikują linki do różnych serwisów. No to zobaczmy pierwszy z grafów: 
+
+![Tweety z linkami do artykułów wybranych serwisów informacyjnych, opublikowane od 6 do 7 marca 2020. **Jeśli chcesz zobaczyć grafa w powiększeniu, to kilknij prawym klawiszem na obrazek i wybierz z menu 'Pokaż obrazek'**](/post/2020-03-07-wieczór-emocji-duda-vs-kurski_files/wspomnienia_artykulow_serwisow_informacyjnych-06-07-2020.png){width=95%}
+
+Wielkość reprezentuje całkowitą liczbę linków do artykułów serwisu, jakie opublikowali użytkownicy Twittera. Pamiętajmy, że w tych danych nie ma retweetów. Jeśli chodzi o statystykę linków to przedstawia się ona następująco:
+
+
+```{r, echo=FALSE}
+statystyka_serwisow <- readRDS(file = "../../static/data/statystyka_serwisow.RDS")
+kableExtra::kable(statystyka_serwisow)
+
+```
+
+Widać wyraźnie dominację dwóch serwisów: TVP-Info i Wiadomości Onetu. Liczba artykułów z tych dwóch serwisów, ponad dwukrotnie przekracza sumę artykułów z pozostałych 8 stron. 
+Drugi wniosek, dość oczywisty to że każdy z serwisów ma sporą grupkę wiernych i zamkniętych w informacyjnej bańce użytkowników. To te otoczki z punkcików wokół serwisu. Każdy punkt to publikacja co najmniej jednego artykułu z domeny serwisu. 
+Interesującym elementem są konta, które znajdują się najczęściej między serwisami, a które z tymi ostatnimi łączą linie (fachowo zwane krawędziami) o kolorze takim samym jak kolor kółka serwisu. To te konta, które opublikowały linki do dwóch, czy większej liczby serwisów. Mogą to być różne przypadki np. konta symetrystów, którzy starając się być obiektywni, linkują do różnych punktów widzenia. Mogą to być też konta zwolenników rządu czy opozycji, którzy popularyzują artykuły z jednego serwisu i krytykują z innego. Aby to wyjaśnić potrzebna byłaby głębsza analiza, zapewne z sentymentem, czego na pewno dzisiaj nie będę robił. 
+Rzuca się w oczy, co jest zresztą oczywiste dla grafów, że widać wyraźnie trzy części: 
+
+- na samej górze, samotny serwis TVP-Info 
+- pośrodku cztery: wiadomości WP, Fakty Interii, Fakt.pl i SE.pl 
+- na dole cztery: Wiadomości Onet, wyborcza.pl, wiadomości Gazeta.pl, TVN24 i RadioZet.
+
+Samo się nasuwa, że to podział na serwisy, które preferują konserwatyści (u góry), symetryści (w centrum) i liberałowie i lewica (na dole). Widać też, że symetryści bardziej ciążą ku dołowi (lewicy i liberałom) niż ku prawicy (więcej krawędzi prowadzi z serwisóW "symetrystycznych" do liberałów i lewicy niż do konserwatystów). 
+Oczywiście to jedynie spostrzeżenia i by przekonać się, że rzeczywiście tak jest potrzebna jest głębsza analiza.
+
+Drugi graf jest również bardzo ciekawy, bo przedstawia dwie rzeczy:
+
+- świat dziennikarski był żywo zainteresowany sprawą dotacji do TVP oraz  
+- dziennikarze właściwie podzielili się na dwa obozy, z których ten sprzyjający liberałom, wydaje się większy.
+
+Ten przechył w stronę liberalną widać gołym okiem na Twitterze ale by dokładnie zbadać to zjawisko, potrzebne są dane z więcej niż dwóch dni. Traktujmy więc to, co poniżej trochę z rezerwą.  
+Zanim jednak przejdziemy do grafa, to kilka słów o tym jakie dane wykorzystałem do analizy. Jak pisałem wcześniej, wszystkie dane zbierane były w okresie 7-8 marca 2020. Do analizy dziennikarzy pobrałem z API Twittera tylko tweety dziennikarzy (na bazie mojej listy ponad 1400 dziennikarzy), które **UWAGA** zawierały wspomnienia jakiegokolwiek konta na Twitterze. Chodziło mi o to, by zebrać tweety w których dziennikarze odpowiadali czy komentowali czyjś tweet, albo wspominali konto. Podobnie jak wcześniej wyeliminowałem retweety, bo niewiele wnoszą do takiej analizy.
+
+Na podstawie tych danych utworzyłem trzy grafy. W pierwszym wielkość kółka prezentuje "wpływ" konta na innych aktorów w sieci (badanej sieci, a nie w Internecie :-), w danym okresie czasu. Fachowo nazywa się to [Eigenvector Centrality](https://en.wikipedia.org/wiki/Eigenvector_centrality) i zwany jest też miarą prestiżu. Przyjmuje wartości od 0 do 1, więc arbitralnie przyjąłem, że konta, dla których ten wskaźnik wynosi co najmniej 0,50 za wpływowe, a więc widzimy ich nazwy. UWAGA 2, wpływowymi mogą być konta zarówno dziennikarzy, jak i innych, których dziennikarze wspomnieli. No to popatrzmy na te prestiżowe konta :-)
+
+![Konta o największym wpływie w badanej sieci. **Jeśli chcesz powiększyć, to kliknij prawym klawiszem myszki na obrazek i wybierz 'Pokaz obraz'**](/post/2020-03-07-wieczór-emocji-duda-vs-kurski_files/dziennikarze_06-07-marca-2020_eigenvector-prestiz.png){width=95%}
+
+Zaskoczyło mnie, że konto Jacka Kurskiego, który przecież był ważnym aktorem wydarzeń, nie jest tak ważne w tej konkretnej sieci. Znaczy to oczywiście, że rzadziej niż innych go wspominano czy generalnie używano jego konta czy wspominano jego tweety. 
+Zaskakująca jest też mizerna liczba kont, powszechnie kojarzonych z obozem konserwatywnym, a z drugiej strony spora liczba kont ewidentnie popierających liberałów czy lewicę. No i niewielu uważanych za symetrystów! 
+To ewidentny sygnał, że mainstream przesunął się w kierunku liberalnym. Spora część z tych kont jest nazwijmy to eufemistycznie "dość krytyczna" wobec rządu czy partii rządzącej. 
+Kolory kont prezentują grupy (plemiona), ale nie przypisywałbym im jakiś jednoznacznych konotacji politycznych, bo są to dane tylko z dwóch dni, a poza tym do klasyfikacji potrzebne jest więcej wskaźników. Niewątpliwie jednak, jak ktoś się uprze i zna środowisko dziennikarskie na Twitterze, to zauważy, że niektóre konta dziwnym trafem są w... jednej grupie. 
+Bez względu jednak czy uznamy te grupy za plemiona, to widać ewidentnie dwie rzeczy: większość wpływowych kont raczej zaliczyć można do osób o poglądach liberalnych, trochę mniej lewicowych. Kont o poglądach prawicowych jest kilka. Pocieszające jest to, że wśród kont wpływowych nie ma osób wyrażających w sposób jednoznaczny swoje poglądy, jak np. Tomasz Lis.
+
+W kolejnym grafie zbadałem, o których kontach najczęściej wspominano w tweetach dziennikarzy.
+
+![Najczęsciej wspominane konta. **Aby powiększyć, kliknij prawym klawiszem myszki i z menu wyberz 'Pokaż obraz'**](/post/2020-03-07-wieczór-emocji-duda-vs-kurski_files/dziennikarze_06-07-marca-2020_in_degree.png){width=95%}
+
+Zdecydowanie najczęściej wspominanym kontem przez dziennikarzy, było prywatne konto Prezydenta Andrzeja Dudy. Zważywszy na to co się działo, to specjalnie mnie to nie dziwi. Co natomiast jest zaskakujące, to to, że w tym grafie pojawiają się konta osób, których w poprzednim (wpływowych) nie było. Na przykład wspomniany wcześniej Tomasz Lis czy Rafał Ziemkiewicz - oboje raczej nie bawiących się w konwenanse. Więcej jest też kont prawej strony, oraz kont mediów. Co trochę zaskakujące, to brak...konta Onetu. 
+Po lewej stronie grafu jest grupa kont związanych ze sportem. To jedyna grupa tematyczna, którą można wydzielić z kont dziennikarskich. Gdzieś zniknęły występujące wcześniej konta dziennikarzy ekonomicznych, czy np. ze Śląska.
+
+Ostatni graf, to odwrócenie poprzedniego, czyli konta dziennikarzy, które najwięcej tweetowały i wspominały inne konta. Tu jakiś rewelacji nie widzę. Po prostu to są najaktywniejsi dziennikarze na polskim Twitterze.
+
+![Najczęściej tweetujące konta dziennikarzy. **By powiększyć, kliknij prawym klawiszem na obrazek i wybierz z menu 'Pokaż obraz'**](/post/2020-03-07-wieczór-emocji-duda-vs-kurski_files/dziennikarze_06-07-marca-2020_out_degree.png){width=95%}
+
+Reasumując, to co powyżej to zaledwie ułamek informacji, które można wyciągnąć analizując tweety z linkami do artykułów, oraz tweety wysłane przez np. dziennikarzy. Dane oraz ich wstępne przygotowanie zrobiłem w R, a grafy w Gephi. Postaram się w następnym poście, pokazać cały proces.
+
+Jakieś uwagi, komcie? Zapraszam na dole, albo na Twitterze [@Dziennikarz](https://twietter.com/dziennikarz)
+
+
+
+
+
