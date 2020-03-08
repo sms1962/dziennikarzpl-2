@@ -1,13 +1,11 @@
 ---
-title: 'Wieczór emocji: Duda vs. Kurski i co się z tego dowiedziałem o dziennikarzach i serwisach informacyjnych?'
+title: 'Wieczór emocji: Duda vs. Kurski i co się z tego dowiedziałem o dziennikarzach
+  i serwisach informacyjnych?'
 author: sms
 date: '2020-03-07'
-slug: wieczór-emocji-duda-vs-kurski
 categories:
   - Kraj
-tags: []
-description: ''
-topics: []
+slug: wieczór-emocji-duda-vs-kurski
 ---
 6 marca na pewno długo będzie zapamiętany zarówno przez prezydenta Andrzeja Dudę jak i dziennikarzy. W ten właśnie wieczór, dosłownie na godzinę przed upłynięciem ustawowego terminu, Duda podpisał ustawę dofinansowującą publiczną TVP. Wcześniej, po głównym wydaniu "Wiadomości" w wywiadzie, Jacek Kurski, prezes TVP oddał się do dyspozycji...Prezydenta. Dziwne, bo prezydent nie mianuje prezesa TVP (robi to Rada Mediów Narodowych). 
 Podejrzewałem, że te kilka wydarzeń, wywoła emocje wśród dziennikarzy i postanowiłem to sprawdzić. Gdzie? Najlepiej na Twitterze. Pobrałem z Twittera dwa rodzaje tweetów: 
